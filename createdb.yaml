@@ -5,7 +5,7 @@
       ec2_group:
         name: dbsg
         description: an example EC2 group
-        vpc_id: vpc-a4b8a1dc
+        vpc_id: vpc-2a3eda51
         region: us-east-1
         rules:
           - proto: tcp
