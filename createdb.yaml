@@ -45,7 +45,7 @@
     - debug:
         var: mydb
     - replace:
-        path: ./fe.yaml
+        path: ./threetier.yaml
         regexp: 'DATABASENAME'
         replace: "{{ mydb.instance.endpoint }}"
         backup: yes
